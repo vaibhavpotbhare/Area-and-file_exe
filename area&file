@@ -1,0 +1,12 @@
+print("Let's find out area of a Circle...")
+r=float(input("Enter value of radius="))
+Area=3.14*(r**2)
+print("Area of circle is =",Area)
+print("\n")
+
+
+print("Let's find out the file name and extension...")
+file=input("Enter file name with extension=")
+fname=file.split(".")
+print("File name is ",fname[0])
+print("Extension is ",fname[1])
